@@ -1,5 +1,6 @@
 from itertools import combinations
 
+#1
 def eliminate_char():
     text=input()
     text2="".join([c for c in text if c.isalpha()])
@@ -7,11 +8,13 @@ def eliminate_char():
 
 print(eliminate_char())
 
+#2
 def replace_word(word1,word2,prop):
     return prop.replace(word1,word2)
 
 print(replace_word("abc","def","abc"))
 
+#3
 def func(x,y):
     cuv_x = x.split()
     cuv_y = y.split()
@@ -24,7 +27,7 @@ def func(x,y):
 
 print(func("tre pre chi","china, e, faf3qe13"))
 
-
+#4
 def palindrome(num):
     num1 = str(num)
     for i in range(1,len(num1)):
@@ -34,6 +37,7 @@ def palindrome(num):
 
 print(palindrome(121))
 
+#5
 def nr_cuvinte(text):
     return len(text.split())
 
